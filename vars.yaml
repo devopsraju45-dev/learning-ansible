@@ -38,6 +38,8 @@
   hosts: all
   roles:
     - sample
+
+
 - name: Print fact
   hosts: all
   tasks:
