@@ -33,3 +33,10 @@
     - name: Print URL
       ansible.builtin.debug:
         msg: URL == {{URL}}
+
+- name: Read the variable from the cli  file
+  hosts: all
+  tasks:
+    - name: Print URL
+      ansible.builtin.debug:
+        msg: URL == {{URL}}
