@@ -43,5 +43,5 @@
 - name: Print fact
   hosts: all
   tasks:
-    - name: print Hostname
+    - name: Print Hostname
       msg: Hostname == {{ ansible_hostname }}
