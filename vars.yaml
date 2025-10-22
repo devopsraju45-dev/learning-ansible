@@ -38,3 +38,8 @@
   hosts: all
   roles:
     - sample
+- name: Print fact
+  hosts: all
+  tasks:
+    - name: print Hostname
+      msg: Hostname == {{ ansible_hostname }}
