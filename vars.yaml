@@ -37,3 +37,4 @@
 - name: Read the variable from the cli  file
   hosts: all
   roles:
+    - sample
