@@ -4,3 +4,11 @@
     - name: print hello
       ansible.builtin.debug:
         msg: Hello how are you
+
+
+- name: Demo my first playbook,play
+  hosts: all
+  tasks:
+    - name: print hello
+      ansible.builtin.debug:
+        msg: Hello how are you
