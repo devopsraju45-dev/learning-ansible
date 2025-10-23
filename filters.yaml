@@ -1,0 +1,6 @@
+- name: Demo On filters
+  hosta: all
+  tasks:
+    - name: print uppercase to lowercase
+      ansible.builtin.debug:
+        msg: "{{ NAME | lower }} "
